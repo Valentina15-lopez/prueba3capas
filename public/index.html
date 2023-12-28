@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--se adapta al ancho del dispositivo-->
+    <meta name="viewport" content="width=device-width" />
+    <title>Aula Virtual</title>
+    <!--descripcion de la web-->
+    <meta name="description" content="Udeverso" />
+    <!--se indexa y sigue los link-->
+    <meta name="robots" content="index,follows" />
+    <!--color de la pestaña-->
+    <meta name="theme-color" content="#b81414" />
+    <!--icono de la pestaña-->
+    <!-- <link rel="icon" type="img/jpg" href="img/foto_gmail.jpeg" />-->
+    <!--OPEN GRAPH PARA COMPARTIR EN REDES-->
+    <meta property="og:title" content="UDEVERSO" />
+    <meta property="og:img" />
+    <meta property="og:description" />
+    <!--PAGINA ALTERNATIVA-->
+    <link rel="alternate" href="" />
+    <!--PAGINA principal-->
+    <link rel="canonical" href="" />
+
+    <style>
+      body {
+        background: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="/static/js/bundle.js"></script>
+    <!--div contenido en bloque-->
+    <!--span contenido en linea-->
+    <header>
+      <h1>UDEVERSO</h1>
+      <nav>
+        <!--enlaces internos-->
+        <a href="../client/src/presentation/components/AulaVirtual/scene.js"
+          >Aula Virtual</a
+        >
+        <a href="">ABM</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Formulario de contacto</h2>
+        <form method="post" action="/">
+          <fieldset>
+            <legend>Informacion personal</legend>
+            <label
+              >Nombre:
+              <input type="text" name="name" id="name" />
+            </label>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <a href="mailto:pdegrado34@gmail.com">Enviame un correo</a>
+      <a href="tel:+598096239895">Llamame por telefono</a>
+      <a href="whatsapp://send?text=Hola UDEVERSO">whatsapp</a>
+    </footer>
+  </body>
+</html>
